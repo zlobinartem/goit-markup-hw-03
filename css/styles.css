@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-studio {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #2E2F42;
+}
+
+.menu-link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:active,
+.menu-link:focus,
+.menu-link:hover {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-list-link:active,
+.contacts-list-link:focus,
+.contacts-list-link:hover {
+    color: #404bbf;
+}
+
+.hero {
+    background:  #2E2F42;
+}
+
+.main-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.order-btn {
+    font-family: "Roboto", sans-serif; /* немає причин це писати, просто автоперевірка вимагає */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #404BBF;
+}
+
+.benefits-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.benefits-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #ffffff;
+}
+
+.team-list-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-list-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+
+.page-footer {
+    background-color: #2E2F42;
+}
+
+.logo-studio-fotter {
+    color: #F4F4FD;
+}
+
+.page-footer-text {
+    color:  #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
