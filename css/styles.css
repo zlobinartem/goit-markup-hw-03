@@ -75,9 +75,10 @@ img {
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    clip-path: inset(100%);
     margin: -1px;
 }
+
 /* ============== /COMMON STYLES ============== */
 
 /* ============== HEADER STYLES ============== */
@@ -193,7 +194,7 @@ img {
     background-color: #4D5AE5;
     color: #ffffff;
     min-width: 169px;
-    height: 59px;
+    height: 56px;
     padding: 16px 32px;
     border-color: #4D5AE5;
     border-style: none;
@@ -322,7 +323,7 @@ img {
 
 .page-footer .link {
     display: inline-block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .logo-studio-fotter {
