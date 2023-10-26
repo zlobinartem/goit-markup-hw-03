@@ -108,7 +108,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 50px;
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -126,6 +126,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .menu-link:active,
@@ -165,14 +166,15 @@ img {
 /* ============== HERO STYLES ============== */
 .hero {
     background:  #2E2F42;
+    padding: 188px 0;
 }
 .hero > .container {
     display: flex;
     flex-direction: column;
     gap: 48px;
     align-items: center;
-    margin: 68px auto;
 }
+
 .main-title {
     color: #ffffff;
     text-align: center;
@@ -180,20 +182,23 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
 }
 
 .order-btn {
-    /* font-family: "Roboto", sans-serif; немає причин це писати, просто автоперевірка вимагає */
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #ffffff;
+    min-width: 169px;
+    height: 59px;
     padding: 16px 32px;
     border-color: #4D5AE5;
+    border-style: none;
     border-radius: 4px;
+
 }
 
 .order-btn:hover,
@@ -255,6 +260,10 @@ img {
                 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.team-list-person {
+    padding: 32px 0;
+}
+
 .team-list-title {
     color: #2E2F42;
     text-align: center;
@@ -262,7 +271,6 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -272,7 +280,6 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
 }
 /*==============/TEAM STYLES==============*/
 
@@ -284,9 +291,10 @@ img {
     justify-content: center;
 }
 
-.portfolio-list-item {
-    border: 1px solid #E7E9FC;
-    width: 360px;
+.portfolio-list-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-list-title {
@@ -295,7 +303,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin: 32px auto 8px 18px;
+    margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -303,15 +311,18 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em; 
-    margin: 0 auto 32px 18px;
 }
 /*==============/PORTFOLIO STYLES==============*/
 
 /* ============== FOOTER STYLES ============== */
 .page-footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0;
+}
+
+.page-footer .link {
+    display: inline-block;
+    padding-bottom: 16px;
 }
 
 .logo-studio-fotter {
@@ -325,5 +336,4 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 18px;
 }
